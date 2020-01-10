@@ -62,6 +62,7 @@ With an f-string, this becomes:
 
 ## 최종 정리
 
-seoul.index('Kim') 라는 것은 이렇게 쓰인 이상 데이터타입이 그저 어떤 하나의 값에 해당하는 거겠지. 그리고 이걸 변수 kimIdx에 대입한 것이고.
-<br>그리고 format 함수의 입력인수에 변수 kimIdx를 대입한 것이다.
+seoul.index('Kim') 라는 것은 이렇게 쓰인 이상 데이터타입이 그저 어떤 하나의 값에 해당하는 거겠지. 
+<br>그리고 이걸 변수 kimIdx에 대입한 것이고.
+<br>그리고 나서 format 함수의 입력인수에 변수 kimIdx를 대입한 것이다.
 <br>마지막으로 이를 프린트 한다.
