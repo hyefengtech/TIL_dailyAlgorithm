@@ -37,4 +37,31 @@ a = [1,2,3]
 a.index(3) // 3은 리스트 a의 세 번째(a[2])요소 이므로 2를 리턴
 ~~~
 
-2. 파이썬에서 
+2. 파이썬에서 문자열 함수 중 format()이 있다.
+~~~
+
+>>> value = 4 * 20
+>>> 'The value is {value}.'.format(value=value)
+'The value is 80.'
+
+Even in its simplest form there is a bit of boilerplate, and the value that's inserted into the placeholder is sometimes far removed from where the placeholder is situated:
+
+>>> 'The value is {}.'.format(value)
+'The value is 80.'
+With an f-string, this becomes:
+
+>>> f'The value is {value}.'
+'The value is 80.'
+
+~~~
+
+## 답을 찾아야할 의문점
+
+함수의 입력인수로 들어갈 수 있는 값의 종류는 무엇무엇이 있을까? 배열도 입력값으로 들어갈 수 있나?
+
+<br>
+## 최종 정리
+
+seoul.index('Kim') 라는 것은 이렇게 쓰인 이상 데이터타입이 그저 어떤 하나의 값에 해당하는 거겠지. 그리고 이걸 변수 kimIdx에 대입한 것이고.
+<br>그리고 format 함수의 입력인수에 변수 kimIdx를 대입한 것이다.
+<br>마지막으로 이를 프린트 한다.
